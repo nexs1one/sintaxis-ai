@@ -85,7 +85,7 @@ export default function DeepDivePage({ params }) {
                         <h2 className="text-2xl font-bold mb-6">SINTAXIS_TERMINAL</h2>
                         <div className="glass rounded-xl p-1 overflow-hidden">
                             <div className="bg-black/50 p-4 font-mono text-sm text-accent-cyan/80">
-                                <div>C:\Users\User> query_ai --topic "{videoData.title}"</div>
+                                <div>C:\Users\User{" > "} query_ai --topic "{videoData.title}"</div>
                                 <div className="text-foreground/40 mt-1">Esperando entrada del usuario..._</div>
                             </div>
                             <input
